@@ -30,3 +30,13 @@
   font-family:'Comfortaa', cursive;
   font-size: 2.25rem;
 }
+
+.navLinks{
+  list-style-type: none;
+}
+
+.navLinks li{
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}

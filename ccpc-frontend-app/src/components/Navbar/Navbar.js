@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Navbar.module.css";
 import TargetLink from "../../UI/TargetLink";
+import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
@@ -9,14 +10,7 @@ const Navbar = () => {
         <h1 className={classes.logo}>
           <TargetLink toPath="/" name="CCPC"></TargetLink>
         </h1>
-        <ul>
-          <li>
-            <TargetLink toPath="/" name="Home"></TargetLink>
-          </li>
-          <li>
-            <TargetLink toPath="/about" name="About"></TargetLink>
-          </li>
-        </ul>
+        <NavLinks/>
       </header>
     </div>
   );
