@@ -8,7 +8,7 @@
   left: 0;
   width: 100%;
   height: 4rem;
-  background-color: #181818;
+  background-color: rgba(0, 8, 20, 0.40);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -20,12 +20,12 @@
 
 .logo {
   margin-right: auto;
-  color: #f2ff00;
+  color: #ffc300;
 }
 
 .logo a {
   margin-right: auto;
-  color: #f2ff00;
+  color: #ffc300;
   text-decoration: none;
   font-family:'Comfortaa', cursive;
   font-size: 2.25rem;
@@ -39,4 +39,9 @@
   display: inline-block;
   margin: 1rem 0;
   padding: 1rem 0;
+}
+
+.imgLogo{
+  height: 85%;
+
 }
