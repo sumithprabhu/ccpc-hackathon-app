@@ -5,10 +5,10 @@ import classes from "./HomeBody.module.css";
 
 const HomeBody = () => {
   return (
-    <div>
+    <div >
       <Navbar />
       <div className={classes.mainbody}>
-        <div>
+        <div className={classes.textbody}>
           <h2>Welcome to the homepage!</h2>
           <p>You can do this, I believe in you.</p>
         </div>
