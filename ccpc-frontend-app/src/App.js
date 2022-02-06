@@ -1,12 +1,14 @@
-import React, { Fragment } from "react";
-import Navbar from "./components/Navbar/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
-const App = () => {
+function App() {
   return (
-    <Fragment>
-      <Navbar />
-    </Fragment>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
   );
-};
+}
 
 export default App;
