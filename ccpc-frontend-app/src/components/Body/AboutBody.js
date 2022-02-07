@@ -1,10 +1,14 @@
 import React from "react";
 import TargetLink from "../../UI/TargetLink";
+import Navbar from "../Navbar/Navbar";
+import classes from './AboutBody.module.css'
 
 const AboutBody = () => {
   return (
     <div>
-      <div>
+      <Navbar />
+
+      <div className={classes.aboutbody}>
         <>
           <main>
             <h2>Who are we?</h2>
