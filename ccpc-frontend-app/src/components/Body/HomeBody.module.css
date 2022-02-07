@@ -1,12 +1,18 @@
 .mainbody {
-  margin-top: 5rem;
+  margin-top: 4rem;
   color: #e5e5e5;
 }
 
-.content {
-  background-position: center;
-  background-size: cover;
+.mainimage {
+  width: 100%;
+  height: 25rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.mainimage img {
   width: 100%;
   height: 100%;
-  background-color: black;
+  object-fit: cover;
+  /* transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); */
 }

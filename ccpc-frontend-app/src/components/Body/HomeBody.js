@@ -2,16 +2,16 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import TargetLink from "../../UI/TargetLink";
 import classes from "./HomeBody.module.css";
-import picHead from '../../assets/header4.jpg'
+import picHead from "../../assets/contentImage2.jpg";
 
 const HomeBody = () => {
   return (
-    <div >
+    <div>
       <Navbar />
       <div className={classes.mainbody}>
-        
-          <img src={picHead} alt="...." className="content"/>
-       
+        <div className={classes.mainimage}>
+          <img src={picHead} alt="...."  />
+        </div>
         <div className={classes.textbody}>
           <h2>Welcome to the homepage!</h2>
           <p>You can do this, I believe in you.</p>
