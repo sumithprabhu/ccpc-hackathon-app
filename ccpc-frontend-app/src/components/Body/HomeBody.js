@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import TargetLink from "../../UI/TargetLink";
 import classes from "./HomeBody.module.css";
 import picHead from "../../assets/testimg2.jpg";
-import Slideshow from "../Slideshow/Slideshow";
+import { CardList } from "../Card/cardList";
 
 const HomeBody = () => {
   return (
@@ -18,7 +18,7 @@ const HomeBody = () => {
           <h2>Welcome to the homepage!</h2>
           <p>You can do this, I believe in you.</p>
         </div>
-        
+        <CardList/>
       </div>
     </div>
   );
