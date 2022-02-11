@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import TargetLink from "../../UI/TargetLink";
 import classes from "./HomeBody.module.css";
 import picHead from "../../assets/testimg2.jpg";
 import { CardList } from "../Card/cardList";
+import Footer from "../Footer/Footer";
 
 const HomeBody = () => {
   return (
@@ -19,6 +19,7 @@ const HomeBody = () => {
           <p>You can do this, I believe in you.</p>
         </div>
         <CardList/>
+      <Footer/>
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
 .cardcontainer {
-  /* width:100%; */
+  width:23%;
   display: flex;
   flex-direction: column;
   background-color: #219ebc;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 5px;
   padding: 25px;
   cursor: pointer;
@@ -11,6 +11,11 @@
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+}
+
+.cardcontainer img{
+  border-radius: 5px;
+  height: 100%;
 }
 
 .cardcontainer:hover {
