@@ -8,7 +8,7 @@ import Footer from '../Footer/Footer'
 const AboutBody = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar inAbout={true}/>
       <div className={classes.container}>
         <div className={classes.mainimage}>
           <img src={aboutPageImage} alt="...." />

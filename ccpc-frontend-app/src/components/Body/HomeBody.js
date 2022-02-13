@@ -8,7 +8,7 @@ import Footer from "../Footer/Footer";
 const HomeBody = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar inHome={true}/>
       <div className={classes.mainbody}>
         <div className={classes.mainimage}>
           <img src={picHead} alt="...."  />
