@@ -1,6 +1,8 @@
 .headtag div {
   display: inline-block;
   /* border: 1px solid #2c0d00; */
+  /* flex-direction: column;
+  flex-wrap: wrap; */
   padding: 0.25rem;
   border-radius: 10px;
   margin: 1rem;
@@ -14,6 +16,7 @@
 }
 
 .headtag a {
+  font-weight: 500;
   text-decoration: none;
   color: inherit;
   padding: 2rem;
