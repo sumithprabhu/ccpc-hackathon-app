@@ -1,25 +1,21 @@
 import React from "react";
-import TargetLink from "../../UI/TargetLink";
 import Navbar from "../Navbar/Navbar";
 import classes from "./AboutBody.module.css";
 import aboutPageImage from "../../assets/aboutpageImage.jpg";
-import Footer from '../Footer/Footer'
+import Footer from "../Footer/Footer";
+import BodyContent from "../../UI/BodyContent";
 
 const AboutBody = () => {
   return (
     <div>
-      <Navbar inAbout={true}/>
-      <div className={classes.container}>
-        <div className={classes.mainimage}>
-          <img src={aboutPageImage} alt="...." />
-        </div>
+      <Navbar inAbout={true} />
 
-        <div className={classes.textbody}>
-          <h2>Who are we?</h2>
-          <p>That feels like an existential question, don't you think?</p>
-        </div>
-      </div>
-    <Footer />
+      <BodyContent
+        image={aboutPageImage}
+        headline="Who are we?"
+        description="That feels like an existential question, don't you think?."
+      />
+      <Footer />
     </div>
   );
 };
