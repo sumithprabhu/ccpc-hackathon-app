@@ -14,24 +14,28 @@ export const CardList = (props) => {
         details="Internship"
         descrip="Page redirect to /internship"
         image={intern}
+        link="/internship"
       />
       <Card
-        key="em1"
+        key="em2"
         details="Career"
         descrip="Page redirect to /career"
         image={career}
+        link="/home"
       />
       <Card
-        key="em1"
+        key="em3"
         details="Assistance"
         descrip="Page redirect to /assistance"
         image={assistance}
+        link="/internship"
       />
       <Card
-        key="em1"
+        key="em4"
         details="Training"
         descrip="Page redirect to /training"
         image={training}
+        link="/internship"
       />
     </div>
   );
